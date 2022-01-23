@@ -1,0 +1,93 @@
+/* cambie de color todo el fondo  */
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: #007991;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient( to right, #78ffd6, #007991);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( to right, #78ffd6, #007991);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* pase todo al centro  */
+
+.container {
+    /*border:1px solid white;*/
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* estoy acomodando el titulo  */
+
+.directorio {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size: 30px;
+    position: relative;
+    margin-left: 20%;
+}
+
+
+/* esto es solo un texto */
+
+.p1 {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'M PLUS 2', sans-serif;
+    position: relative;
+    font-size: 20px;
+    margin: right 50%;
+    ;
+    text-align: right;
+    right: 150px;
+    margin-top: 100px;
+}
+
+.p2 {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'M PLUS 2', sans-serif;
+    position: relative;
+    font-size: 10px;
+    margin: right 170%;
+    ;
+    text-align: right;
+    right: 300px;
+    margin-top: 210px;
+}
+
+
+/* est es el cuadro acostado, aqui estan todas sus ordenes  */
+
+.backbox {
+    background-color: #6a6565;
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    transform: translate(0, -50%);
+    top: 50%;
+    display: inline-flex;
+}
+
+
+/* el cuadro parado, al igual con sus ordenes  */
+
+.frontbox {
+    border-radius: 10px;
+    background-color: #d8d1d1;
+    width: 15%;
+    top: 10%;
+    z-index: 10;
+    position: absolute;
+    right: 20%;
+    margin-right: 10%;
+    margin-left: 90%;
+    text-align: center;
+}
